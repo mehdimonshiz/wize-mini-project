@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+.container {
+  background-image: radial-gradient(rgb(142, 219, 238),rgb(16, 49, 58));
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.dashContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cfe8fc;
+  height: 90vh;
+}
+.foo{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.bar{
+  margin: 15vh 0vh;
+  
+  font-size: 60px;
+}
+.chart1{
+  background-color: lightgreen;
+  height: 10vh;
+  margin:1vh 5vh ;
+  padding: 1vh;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.chart2{
+  background-color: lightblue;
+  height: 35vh;
+  margin:1vh 5vh ;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.jo{
+  background-color: #cff1fc;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.chart3{
+  background-color: rgb(208, 245, 229);
+  align-items: center;
+  width: 50vh;
+  border-radius: 5px;
+  margin:1vh 5vh ;
+}
+.chart4{
+  background-color: rgba(191, 255, 210, 0.459);
+  border-radius: 5px;
+  width: 50vh;
+  margin:1vh 5vh ;
+}
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  background-color: rgb(100, 175, 237);
+  border-radius: 4px;
+  padding: 0 20px;
+  /* position: absolute; */
+}
+
+
+
+.input {
+  padding: 5px 10px;
+  background-image: linear-gradient(rgb(142, 219, 238),rgb(100, 175, 237));
+  border-radius: 5px 5px 0px 0px;
+  margin: 0px 20px;
+
+}
+.forgot{
+  font-size: 12px;
+  margin: 0px 20px;
+}
+
+.button{
+  border-radius: 20px;
+  background-image: radial-gradient(rgb(100, 237, 152),rgb(100, 237, 100));
+  margin: 0px 10px;
+  width: 205px;
+  align-self:center;
+}
+
+
